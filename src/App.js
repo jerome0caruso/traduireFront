@@ -131,7 +131,6 @@ function App() {
       setToBeTranslated("");
       setHasError(false);
     }
-  
   return (
       <BrowserRouter>
         <NavBar loggedIn={loggedIn} setLoggedIn={setLoggedIn} currentUser={currentUser} setCurrentUser={setCurrentUser} />
