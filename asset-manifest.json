@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/traduireFront/static/css/main.960934b4.chunk.css",
+    "main.js": "/traduireFront/static/js/main.9abc34f3.chunk.js",
+    "main.js.map": "/traduireFront/static/js/main.9abc34f3.chunk.js.map",
+    "runtime-main.js": "/traduireFront/static/js/runtime-main.ee901b02.js",
+    "runtime-main.js.map": "/traduireFront/static/js/runtime-main.ee901b02.js.map",
+    "static/js/2.7d53c0d4.chunk.js": "/traduireFront/static/js/2.7d53c0d4.chunk.js",
+    "static/js/2.7d53c0d4.chunk.js.map": "/traduireFront/static/js/2.7d53c0d4.chunk.js.map",
+    "static/js/3.4ad01f0e.chunk.js": "/traduireFront/static/js/3.4ad01f0e.chunk.js",
+    "static/js/3.4ad01f0e.chunk.js.map": "/traduireFront/static/js/3.4ad01f0e.chunk.js.map",
+    "index.html": "/traduireFront/index.html",
+    "static/css/main.960934b4.chunk.css.map": "/traduireFront/static/css/main.960934b4.chunk.css.map",
+    "static/js/2.7d53c0d4.chunk.js.LICENSE.txt": "/traduireFront/static/js/2.7d53c0d4.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/traduireFront/static/media/redbg.acaf8f0d.jpg",
+    "static/media/robot.9558aac5.png": "/traduireFront/static/media/robot.9558aac5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee901b02.js",
+    "static/js/2.7d53c0d4.chunk.js",
+    "static/css/main.960934b4.chunk.css",
+    "static/js/main.9abc34f3.chunk.js"
+  ]
+}
