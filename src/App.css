@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+* {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  width:100%;
+  height: 100vh;
+  background-image:  linear-gradient( rgba(255, 255, 255, 0.7) 10%,rgba(255, 0, 0, 0.2) 100%), url('./images/redbg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+.appContainer {
+  background-image:  linear-gradient( rgba(255, 255, 255, 0.5) 10%,rgba(0,0,0,0.5) 100%), url('./images/1781.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: calc(100vh - 56px);
+}
+#mainpic {
+  opacity: .8;
+}
+.appContainer h1{
+  padding-top: 2rem;
+}
+.App {
+  width: 100%;
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.input-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.eachInputContainer {
+  margin-top: 3rem;
+}
+#mainInput, #mainOutput{
+  width: 400px;
+  height: 300px;
+}
+textarea { resize: none; }
+.errorBox {
+  margin-top: 1rem;
+  width: 198px;
+  color:rgb(255, 255, 255);
+}
+.navBar, .navBar a {
+  background-color: #31bae0;
+  color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.mainHeading {
+  font-family: 'Balsamiq Sans', cursive;
+  color:white;
+  font-size: 120px;
+  padding: 0;
+  margin: 0;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.fa-robot {
+  font-size: 6rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mainContainer {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.firstPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registerContainer {
+  display: flex;
+  margin: 3rem auto;
+  justify-content: center;
+  display: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.formContainer {
+  width: 40%;
+}
+.formCriContainer {
+  border: 2px solid #31bae0;;
+  width: 20%;
+  margin-left: 2rem;
+  padding: .8rem .5rem .5rem 0;
+}
+.errorMessage {
+  font-size: 1.2rem;
+  color: #31bae0;
+  font-weight: bold;
+}
+.flashMessage {
+  font-size: 2.2rem;
+  color: #31bae0;
+  font-weight: bold;
+}
+.cardlistContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 3rem;
+  justify-content: center;
+}
+.firstPage-words {
+  margin-top: 2.5rem;
+}
+.firstPage-btns {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.btn-login a, .btn-register a{
+  color: #cbeef8;
+  text-decoration: none;
+  padding: 2rem;
+}
+.btn-register a {
+  color: #000000;
+}
+.btn-login {
+  margin-right: 4rem;
+  background-color: #31bae0;
+}
+.btn-login:hover {
+  background-color: #36859b;
+}
+.btn-register:hover {
+  background-color: rgb(223, 186, 24);
+}
+.card {
+  width: 50%;
+}
+.mainHeading {
+  font-size: 6.5rem;
+}
+.loginContainer {
+  width: 30%;
+}
+.btnls {
+  margin-top: 1.7rem;
+}
+.dropdown {
+  padding-right: 2.2rem;
+}
+.myAccountContainer {
+  background-image:  linear-gradient( rgba(255, 255, 255, 0.6) 10%,rgba(0,0,0,0.6) 100%), url('./images/3428.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.myAccoutInnerContainer {
+  background-image:  linear-gradient( rgba(255, 255, 255, 0.9) 10%,rgba(255, 255, 255, 0.9) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+  width: 40%;
+  margin-bottom: 16rem;
+}
+.myAccoutInnerContainer h1, .myAccoutInnerContainer h2{
+  font-family: 'Indie Flower', cursive!important;
+  font-size: 3.2rem;
+}
+.lSelector {
+  margin-left: 0.7rem;
+  width: 10rem;
+}
+.rSelector {
+  margin-left: 0.7rem;
+  width: 10rem;
+}
+
+.navBarIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 0;
+
+  font-size: 1.4em;
+  margin: 0;
+}
+
+.logoutButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.editBtn {
+  background-color: #31bae0;
+  border: #36859b;
+} 
+@media only screen and (max-width: 900px){
+  .input-container {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1200px){
+  .mainContainer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mainHeading {
+    font-size: 4rem;
+  }
+  .firstPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .dropdown {
+    padding: 0;
+    margin: 0;
+  }
+  .firstPage-btns {
+    display: flex;
+    margin: 4rem auto;
+  }
+  .firstPage-words {
+    text-align: center;
+  }
+  .firstPage-pic {
+    margin-right: 0 auto !important;
+  }
+  #mainpic {width: 100%;}
+
+  .appContainer {
+    background-image:  linear-gradient( rgba(255, 255, 255, 0.5) 10%,rgba(0,0,0,0.5) 100%), url('./images/1781.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  }
+  #mainInput, #mainOutput{
+    width: 370px;
+    height: 200px;
+  }
+  .eachInputContainer {
+    width: 50%;
+    margin-left: 3rem;
+  }
+  .card {
+    width: 100%;
+  }
+  .myAccoutInnerContainer { 
+    background-image:  linear-gradient( rgba(255, 255, 255, 0.9) 10%,rgba(255, 255, 255, 0.9) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 80%;
+    margin: 0!important;
+  }
+  .registerContainer {
+    flex-direction: column;
+  }
+  .formContainer {
+    order: 2;
+    width: 70%;
+  }
+  .formCriContainer {
+    order: 1;
+    margin-bottom: 2.4rem;
+    width: 70%;
+  }
+  .loginContainer {
+    width: 85%;
+  }
+  #mainInput, #mainOutput {
+    width: 270px;
+  }
+  #mainOutput {
+    margin-bottom: 3rem;
+  }
+  .mainBtn {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    width: 500px;
+  }
+  #navbarDropdown {
+    margin: 0;
+    padding: 0;
+  }
+}
