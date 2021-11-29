@@ -11,6 +11,9 @@ body {
   background-size: cover;
   width: 100%;
 }
+.navbar-brand, .nav-item {
+  list-style-type: none;
+}
 
 .appContainer {
   background-image:  linear-gradient( rgba(255, 255, 255, 0.5) 10%,rgba(0,0,0,0.5) 100%), url('./images/1781.jpg');

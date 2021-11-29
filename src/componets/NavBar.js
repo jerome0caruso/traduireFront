@@ -10,7 +10,7 @@ const NavBar = (props) => {
       props.loggedIn ? (
         <nav className="navbar navbar-expand-lg navBar text-white">
           <div className="container-fluid">
-            <Link style={{listStyleType: 'none'}} className="navbar-brand" to={`/myAccount`}>Traduire</Link>
+            <Link className="navbar-brand" to={`/myAccount`}>Traduire</Link>
             <button className="navbar-toggler navBarIcon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon navBarIcon"><i className="fa fa-bars"></i></span>
             </button>
@@ -24,7 +24,7 @@ const NavBar = (props) => {
                 </li>
               </ul>
               <form className="d-flex dropdown">
-                <li className="nav-item dropdown" style={{ listStyleType: 'none'}}>
+                <li className="nav-item dropdown">
                   <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Dropdown
                   </a>
@@ -44,7 +44,7 @@ const NavBar = (props) => {
       (
         <nav className="navbar navbar-expand-lg navBar">
         <div className="container-fluid">
-          <Link style={{listStyleType: 'none'}} className="navbar-brand" to="/">Traduire</Link>
+          <Link className="navbar-brand" to="/">Traduire</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon navBarIcon"><i class="fa fa-bars"></i></span>
           </button>

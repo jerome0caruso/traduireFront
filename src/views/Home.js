@@ -13,7 +13,6 @@ const Home = (props) => {
                     <h1>Welcome to Traduire!</h1>
                     <h2>Using IBM Watson to do your translations we hope to give you the best translation. Come and start learning now!</h2>
                 </div>
-                <a style={{display:'none'}}href='https://www.freepik.com/vectors/people'>People vector created by pch.vector - www.freepik.com</a>
             </div>
             <div className="firstPage-btns">
                 <button className="btn btn-primary btn-login" ><Link to="/login">Login</Link></button>
