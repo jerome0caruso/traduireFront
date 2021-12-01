@@ -17,7 +17,7 @@ const EachAccount = (props) => {
             email: email
         }
         const body = JSON.stringify(formData);
-        fetch(`http://127.0.0.1:5000/update${props.currentUser['id']}`, {
+        fetch(`https://traduireapi.herokuapp.com/update${props.currentUser['id']}`, {
             method: 'PUT',
             body: body,
         }).then(res => res.json())

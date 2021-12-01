@@ -113,7 +113,7 @@ function App() {
           cardId: cardId
         }
     })
-    fetch('http://127.0.0.1:5000/cards', {
+    fetch('https://traduireapi.herokuapp.com/cards', {
         method: 'POST',
         headers: myHeaders,
         body: data

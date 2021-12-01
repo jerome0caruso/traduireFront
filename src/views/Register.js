@@ -54,7 +54,7 @@ const Register = () => {
                 email: e.target.email.value,
                 password: e.target.password.value
             })
-            fetch('http://127.0.0.1:5000/signup', {
+            fetch('https://traduireapi.herokuapp.com/signup', {
                 method: 'POST',
                 headers: myHeaders,
                 body: data

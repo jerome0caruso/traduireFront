@@ -10,7 +10,7 @@ const MyCards = (props) => {
     const [input, setInput] = useState('');
     
     useEffect(() => {
-        fetch(`http://127.0.0.1:5000/getCards${props.currentUser['id']}`, {
+        fetch(`https://traduireapi.herokuapp.com/getCards${props.currentUser['id']}`, {
             method: 'GET'
         }).then(res => res.json())
           .then(data => {

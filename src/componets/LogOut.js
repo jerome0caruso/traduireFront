@@ -6,7 +6,7 @@ const Logout = (props) => {
     
     const logout = async() => {
         props.setLoggedIn(false)
-        await fetch('http://127.0.0.1:5000/logout', {
+        await fetch('https://traduireapi.herokuapp.com/logout', {
             method: 'GET',
         }).then(res =>  res.json())
           .then(data => {

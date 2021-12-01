@@ -15,7 +15,7 @@ const DeleteCard = (props) => {
             userId: props.currentUser['id']
         }
         const body = JSON.stringify(formData);
-        fetch(`http://127.0.0.1:5000/delete/card${cardId}`, {
+        fetch(`https://traduireapi.herokuapp.com/delete/card${cardId}`, {
             method: 'DELETE',
             body: body,
         }).then(res => res.json())

@@ -13,7 +13,7 @@ const UpdateCard = (props) => {
             updatedInfo: input
         }
         const body = JSON.stringify(formData);
-        fetch(`http://127.0.0.1:5000/updateCard/card${cardId}`, {
+        fetch(`https://traduireapi.herokuapp.com/updateCard/card${cardId}`, {
             method: 'PUT',
             body: body,
         }).then(res => res.json())

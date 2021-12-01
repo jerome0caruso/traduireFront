@@ -15,7 +15,7 @@ const MyAccout = (props) => {
             userId: props.currentUser['id']
         }
         const body = JSON.stringify(formData);
-        fetch(`http://127.0.0.1:5000/delete${props.currentUser['id']}`, {
+        fetch(`https://traduireapi.herokuapp.com/delete${props.currentUser['id']}`, {
             method: 'DELETE',
             body: body,
         }).then(res => res.json())
