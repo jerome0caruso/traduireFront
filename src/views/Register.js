@@ -36,7 +36,6 @@ const Register = () => {
     const handleChange = () => {
         setHasError(false);
     }
-
     const handleSubmit = (e) => {
         console.log("trying to submit", hasError)
         e.preventDefault();
