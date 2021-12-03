@@ -12,7 +12,7 @@ const Login = (props) => {
         let myHeaders = new Headers();
         myHeaders.append('Authorization', `Basic ${encodedString}`)
     
-         await fetch('https://traduireapi.herokuapp.com//login', {
+         await fetch('https://traduireapi.herokuapp.com/login', {
             method: 'POST',
             headers: myHeaders,
         }).then(res =>res.json())

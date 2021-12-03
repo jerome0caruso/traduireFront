@@ -64,7 +64,7 @@ const Register = () => {
                     setHasError(true)
                     setServerError(data['error'])
                 } else {
-                    navigate('/login');
+                    navigate('https://traduireapi.herokuapp.com/login');
                 }
               })
               .catch(err => console.log(err))
