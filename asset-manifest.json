@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/traduireFront/static/css/main.461b064d.chunk.css",
-    "main.js": "/traduireFront/static/js/main.3b003dfd.chunk.js",
-    "main.js.map": "/traduireFront/static/js/main.3b003dfd.chunk.js.map",
+    "main.js": "/traduireFront/static/js/main.7dedefd8.chunk.js",
+    "main.js.map": "/traduireFront/static/js/main.7dedefd8.chunk.js.map",
     "runtime-main.js": "/traduireFront/static/js/runtime-main.ee901b02.js",
     "runtime-main.js.map": "/traduireFront/static/js/runtime-main.ee901b02.js.map",
     "static/js/2.7d53c0d4.chunk.js": "/traduireFront/static/js/2.7d53c0d4.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.ee901b02.js",
     "static/js/2.7d53c0d4.chunk.js",
     "static/css/main.461b064d.chunk.css",
-    "static/js/main.3b003dfd.chunk.js"
+    "static/js/main.7dedefd8.chunk.js"
   ]
 }
