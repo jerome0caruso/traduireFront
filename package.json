@@ -34,6 +34,7 @@
       "react-app/jest"
     ]
   },
+  "proxy":"https://iam.cloud.ibm.com/identity/token",
   "browserslist": {
     "production": [
       ">0.2%",
